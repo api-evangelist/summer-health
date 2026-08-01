@@ -1,8 +1,24 @@
 aid: summer-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/summer-health.png
 name: Summer Health
-description: 'Summer Health is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Summer Health is a pediatric health company offering families fast, board-certified
+  pediatric care. Its flagship consumer service provides comprehensive at-home blood work for children
+  ages 8-18 (one blood draw covering 74 biomarkers) reviewed by board-certified pediatricians over video,
+  alongside text-based urgent-care messaging with pediatric clinicians. The service is HSA/FSA eligible
+  and LegitScript-approved. Summer Health is a consumer-facing telehealth offering and does not currently
+  publish a public developer program, API documentation, or third-party integration surface. This
+  profile was surfaced as a portfolio company of Lux Capital and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/summer-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Telehealth
+- Pediatrics
+- Digital Health
+- Blood Testing
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/summer-health-domain-security.yml
 - type: Website
   url: https://www.summerhealth.com
+- type: Blog
+  url: https://www.summerhealth.com/blog
+- type: Pricing
+  url: https://www.summerhealth.com/pricing
+- type: SignUp
+  url: https://grow.summerhealth.com/parent/signin
+- type: TermsOfService
+  url: https://www.summerhealth.com/terms
+- type: PrivacyPolicy
+  url: https://www.summerhealth.com/privacy-policy
+- type: Support
+  url: mailto:help@summerhealth.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
